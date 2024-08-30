@@ -1,0 +1,19 @@
+@font-face{
+  font-family: "NerkoRegular";
+  src:local("NerkoRegular"),
+  url('./assets/fonts/NerkoOne-Regular.ttf')
+}
+
+:root {
+  --font-regular: 'NerkoRegular', sans-serif;
+
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: var(--font-regular);
+}
